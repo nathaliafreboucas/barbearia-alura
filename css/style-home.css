@@ -32,6 +32,9 @@ nav a:hover{
     color: #7a6400;
     text-decoration: underline;
 }
+#imagem-barbearia{
+    width: 100%;
+}
 
 
 .principal{
@@ -92,7 +95,7 @@ li{
 }
 
 footer{
-    background: url("./imagens/bg.jpg");
+    background: url("../images/bg.jpg");
     text-align: center;
     padding: 40px 0;
 }
