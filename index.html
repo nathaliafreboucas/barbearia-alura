@@ -2,9 +2,13 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Barbearia</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+
         <link rel="stylesheet" type="text/css" href="css/reset.css"> 
-        <link rel="stylesheet" type="text/css" href="css/style-home.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
     <body>
@@ -19,38 +23,49 @@
                     </ul>
                 </nav>   
             </div>
-            <img src="./images/banner.jpg" alt="imagem da barbearia" id="imagem-barbearia">    
         </header>
 
-       
-        <div class="principal">
-            <h2 class="titulo-secundario">Sobre a Barbearia</h2>
+        <img src="./images/banner.jpg" alt="imagem da barbearia" class="imagem-barbearia">    
 
-            <p >Localizada no coração da cidade a <strong> Barbearia </strong>traz para o mercado o que há de melhor para o seu cabelo e barba. 
-            Fundada em 2019, a Barbearia já é destaque na cidade e conquista novos clientes a cada dia.</p>
+       <main class="blocoprincipal">
+            <section class="principal">
+                <h2 class="titulo-secundario">Sobre a Barbearia</h2>
+                <img src="./images/utensilios.jpg" class="utensilios" alt="imagens de utensilios de uma barbearia">
+                <p >Localizada no coração da cidade a <strong> Barbearia </strong>traz para o mercado o que há de melhor para o seu cabelo e barba. 
+                Fundada em 2019, a Barbearia já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-            <p id="enfase"><strong> A missão é: <em>"Proporcionar auto-estima e qualidade de vida aos clientes".</em></strong></p>
+                <p id="enfase"><strong> A missão é: <em>"Proporcionar auto-estima e qualidade de vida aos clientes".</em></strong></p>
 
-            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+                O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </section>
 
-        <main>
+            <section class="mapa">
+                <h3 class="titulo-secundario"> Nosso Estabelicimento</h3>
+                <p>Nosso estabelicimento esta localizado no coração da cidade.</p>
+                
+                <div class="mapa-conteudo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58513.79581978564!2d-46.67782329304349!3d-23.564412078256556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salura%20s%C3%A3o%20paulo!5e0!3m2!1spt-BR!2sbr!4v1651525496274!5m2!1spt-BR!2sbr" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
 
-            <div class="beneficios">
+            <section class="beneficios">
                 <h3 class="titulo-secundario">Benefícios</h3>
-                <div class="lista-beneficios">
-                    <ul class="listaUm">
+                <div class="conteudo-beneficios">
+                    <ul class="lista-beneficios">
                         <li>Atendimento aos Clientes</li>
                         <li>Espaço Diferenciado</li>
                         <li>Localização</li>
                         <li>Profissionais Qualificados</li>
-                    </ul>
+                        <li>Pontualidade</li>
+                        <li>Limpesa</li>
+                    </ul><img src="./images/beneficios.jpg" class="imagem-beneficios">
                 </div>
-                <div class="img-beneficios">
-                    <img src="./images/beneficios.jpg" id="imagem-beneficios">
+                <div class="video">
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/8pWtdanVz3I" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-            </div>
+            </Section>
 
         </main>
         
